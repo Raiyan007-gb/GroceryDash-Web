@@ -186,5 +186,16 @@
 .carousel .wish-icon .fa-heart {
 	color: #ff6161;
 }
-	
+.custom-indicators {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-71.5%);
+    margin-top: 20px;
+}
+
+.custom-control-next,
+.custom-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 /* this part is for featured products ends*/
