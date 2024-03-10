@@ -174,5 +174,17 @@
     font-size: 14px;
     color: #ffc000;
 }
-
+.carousel .wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+.carousel .wish-icon .fa-heart {
+	color: #ff6161;
+}
+	
 /* this part is for featured products ends*/
