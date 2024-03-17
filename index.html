@@ -74,9 +74,9 @@
                 </svg>
             </div>
 
-            <nav class="navbar navbar-expand-lg" aria-label="Thirteenth navbar example">
+            <nav class="navbar navbar-expand-lg" aria-label="">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">
                         <span><img src="./assets/img/GROCERY-DASH.png" width="220px"></span>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -84,14 +84,13 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-                        <a class="navbar-brand col-lg-3 me-0" href="#"></a>
+                    <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarsExample11">
                         <ul class="navbar-nav col-lg-6 justify-content-lg-center">
                             <li class="nav-item">
-                                <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active mx-3" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link mx-3" href="#">About</a>
+                                <a class="nav-link mx-3" href="about.html">About</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link mx-3" href="#">Products</a>
@@ -106,13 +105,14 @@
 
                     </div>
                     <div class="ms-auto">
-                        <button class="custom-glow-on-hover mx-auto">
+                        <button class="custom-glow-on-hover mx-auto" onclick="window.location.href = 'cart.html';">
                             <img class="" src="./assets/icons/tabler-icons-2.45.0/svg/shopping-cart-bolt.svg">
                             <span
                                 class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">4</span>
                         </button>
                         <span class="custom-vl mx-3"></span>
-                        <button class="custom-glow-on-hover ms-auto">
+                        <button class="custom-glow-on-hover ms-auto"
+                            onclick="window.location.href = 'account_login.html';">
                             <img class="" src="./assets/icons/tabler-icons-2.45.0/svg/user.svg">
                             Login
                         </button>
@@ -555,84 +555,76 @@
             </div>
             <!-- for mobile part end-->
             <div class="container px-4 py-5" id="custom-cards">
-                <h2 class="pb-2 border-bottom">Custom cards</h2>
+                <h2 class="pb-2 border-bottom">Top Selling Groceries</h2>
 
                 <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-1.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title long jacket</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill" /></svg>
-                                        <small>E</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3" /></svg>
-                                        <small>3</small>
-                                    </li>
-                                </ul>
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/spice.png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Radhuni Chilli (Morich) Powder
+                                    100 gm
+                                    ৳
+                                    100</h3>
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-2.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to
-                                    multiple lines</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill" /></svg>
-                                        <small>P</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3" /></svg>
-                                        <small>4</small>
-                                    </li>
-                                </ul>
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/Cock Vermicelli (Shemai).png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Cock Vermicelli (Shemai) 230 gm ৳ 45</h3>
                             </div>
                         </div>
                     </div>
-
                     <div class="col">
-                        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-                            style="background-image: url('unsplash-photo-3.jpg');">
-                            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                                <ul class="d-flex list-unstyled mt-auto">
-                                    <li class="me-auto">
-                                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                                            class="rounded-circle border border-white">
-                                    </li>
-                                    <li class="d-flex align-items-center me-3">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#geo-fill" /></svg>
-                                        <small>C</small>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                        <svg class="bi me-2" width="1em" height="1em">
-                                            <use xlink:href="#calendar3" /></svg>
-                                        <small>5</small>
-                                    </li>
-                                </ul>
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/Rupchanda.png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Rupchanda Fortified Soyabean Oil 2 ltr ৳ 328</h3>
                             </div>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/spice.png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Radhuni Chilli (Morich) Powder
+                                    100 gm
+                                    ৳
+                                    100</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/Cock Vermicelli (Shemai).png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Cock Vermicelli (Shemai) 230 gm ৳ 45</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
+                            style="background-color: rgba(255, 255, 255, 0.46); backdrop-filter: blur(10px);">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 align-items-center">
+                                <img src="./assets/img/Rupchanda.png" width="300px" height="230px"
+                                    style="object-fit: cover;" class="mb-4">
+                                <h3 class="" style="color: #000000;">Rupchanda Fortified Soyabean Oil 2 ltr ৳ 328</h3>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -690,7 +682,7 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="#" class="nav-link active p-1" style="color: black;"
                                 aria-current="page">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-1 text-body-secondary">About us</a></li>
+                        <li class="nav-item mb-2"><a href="about.html" class="nav-link p-1 text-body-secondary">About us</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-1 text-body-secondary">Products</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-1 text-body-secondary">Blog</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-1 text-body-secondary">Contact</a></li>
