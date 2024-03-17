@@ -1,0 +1,7 @@
+Home-index.html
+login.html
+register.html
+forgotpass.html
+resetpass.html
+cart.html
+checkout.html
